@@ -4,6 +4,7 @@ alias .="code ."
 
 export GOPATH=$HOME
 export PATH="$GOPATH/bin:$PATH"
+export PATH="$PATH:/opt/homebrew/bin"
 
 bindkey '^j' peco-src
 function peco-src () {
