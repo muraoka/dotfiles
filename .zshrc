@@ -1,7 +1,5 @@
 PROMPT='%c $ '
 
-alias .="code ."
-
 export GOPATH=$HOME
 export PATH="$GOPATH/bin:$PATH"
 export PATH="$PATH:/opt/homebrew/bin"
